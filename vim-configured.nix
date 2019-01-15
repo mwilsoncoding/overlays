@@ -9,7 +9,10 @@ self: super:
       set relativenumber
       set tabstop=2
       set softtabstop=2
+      set shiftwidth=2
       set expandtab
+      set smarttab
+      set autoindent
       filetype indent on
       set wildmenu
       set lazyredraw
