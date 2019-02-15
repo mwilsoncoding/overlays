@@ -23,6 +23,7 @@ self: super:
       set foldlevelstart=10
       set foldnestmax=10
       set foldmethod=indent
+      set colorcolumn=80
     '';
   };
 }
