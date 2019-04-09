@@ -6,6 +6,7 @@ self: super:
       colorscheme elflord
       set backspace=indent,eol,start
       syntax enable
+      set number
       set relativenumber
       set tabstop=2
       set softtabstop=2
@@ -24,6 +25,7 @@ self: super:
       set foldnestmax=10
       set foldmethod=indent
       set colorcolumn=80
+      highlight ColorColumn ctermbg=darkgrey
     '';
   };
 }
