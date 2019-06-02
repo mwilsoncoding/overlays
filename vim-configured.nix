@@ -25,7 +25,8 @@ self: super:
       set foldnestmax=10
       set foldmethod=indent
       set colorcolumn=80
-      highlight ColorColumn ctermbg=darkgrey
+      highlight ColorColumn ctermbg=green
+      let mapleader = ','
     '';
   };
 }
