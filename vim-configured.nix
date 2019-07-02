@@ -27,8 +27,8 @@ self: super:
       set colorcolumn=80
       highlight ColorColumn ctermbg=green
       let mapleader = ','
-      au BufNew,BufRead *.hs noremap <leader>c 0i# <Esc>
-      au BufNew,BufRead *.hs noremap <leader>u 0xx
+      au BufNew,BufRead *.hs noremap <leader>c 0i-- <Esc>
+      au BufNew,BufRead *.hs noremap <leader>u 0xxx
     '';
   };
 }
